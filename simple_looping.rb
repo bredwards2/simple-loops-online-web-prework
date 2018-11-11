@@ -31,6 +31,7 @@ def while_iterator(number_of_times)
   counter = 0
   while counter < interger
   puts "Welcome to Flatiron School's Web Development Course!"
+  counter = counter + 1
 end
 
 def until_iterator(number_of_times)
@@ -40,6 +41,7 @@ def until_iterator(number_of_times)
   counter = 0
   until counter == integer
   puts "Welcome to Flatiron School's Web Development Course!"
+  counter = counter + 1
 end
 
 def for_iterator(number_of_times)
@@ -50,7 +52,7 @@ def for_iterator(number_of_times)
  counter = 4
   for integer in number_of_times
   puts "Welcome to Flatiron School's Web Development Course!"
-  integer += 1 
+  counter += 1 
 end
 
 
