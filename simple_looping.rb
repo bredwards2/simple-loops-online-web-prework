@@ -49,6 +49,5 @@ def for_iterator(number_of_times)
   puts "Welcome to Flatiron School's Web Development Course!"
   integer += 1 
 end
-end
-end
+
 
